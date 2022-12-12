@@ -18,3 +18,17 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+.country-list {
+  list-style: none;
+}
+
+img {
+  width: 25px;
+  height: 20px;
+  border: 1px solid rgb(171, 171, 171);
+}
+
+.item-label {
+  font-weight: bold;
+}
