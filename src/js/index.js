@@ -7,7 +7,6 @@ import 'notiflix/dist/notiflix-3.2.5.min.css';
 const input = document.querySelector('input');
 const list = document.querySelector('ul');
 const DEBOUNCE_DELAY = 300;
-let type;
 
 const renderFlagAndName = (imgSrc, countryName) => {
   list.insertAdjacentHTML(
