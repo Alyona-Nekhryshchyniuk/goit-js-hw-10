@@ -18,7 +18,6 @@ export const fetchCountries = name => {
       name
     )
     .then(({ data }) => {
-      console.log(data);
       return data;
     });
 };
